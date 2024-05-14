@@ -20,7 +20,7 @@ To run this project, you need to have Prolog installed on your machine. SWI-Prol
 
 1. **Load the Prolog file:**
 Start SWI-Prolog and load the main Prolog file:
-   ```bash
+   ```prolog
    ?- ['diabetes_expert_system.pl'].
 
 2. **Clone the repository:**
