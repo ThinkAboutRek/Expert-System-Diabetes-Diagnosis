@@ -1,5 +1,7 @@
 # Expert System for Diabetes Diagnosis
 
+**Author:** Shayan Bagheri
+
 ## Overview
 
 This project is an expert system designed to assist healthcare professionals in diagnosing diabetes mellitus. The system uses patient symptoms, medical history, and diagnostic test results to provide accurate and reliable diagnoses.
@@ -53,3 +55,27 @@ To start the interactive diagnosis system, run:
 - 'valid_fbs/1': Validates FBS levels.
 - 'valid_hba1c/1': Validates HbA1c levels.
 - 'weighted_risk/2': Calculates weighted risk based on risk factors.
+
+##Example
+
+   ```prolog
+   ?- input_and_diagnose.
+
+   Enter patient name:
+   new_patient
+
+   Enter a symptom or risk factor (or 'stop' to end):
+   frequent_urination
+
+   Enter a symptom or risk factor (or 'stop' to end):
+   stop
+
+   No more inputs, proceeding to enter test levels.
+
+   Enter fasting blood sugar level (FBS):
+   130
+
+   Enter HbA1c level:
+   6
+
+   new_patient diagnosis: pre_diabetic
