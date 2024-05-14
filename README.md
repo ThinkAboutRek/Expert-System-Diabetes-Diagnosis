@@ -18,12 +18,19 @@ To run this project, you need to have Prolog installed on your machine. SWI-Prol
 
 ## Usage
 
-1. Load the Prolog file:
+1. **Load the Prolog file:**
 Start SWI-Prolog and load the main Prolog file:
-```prolog
-    ?- ['diabetes_expert_system.pl'].
+   ```bash
+   ?- ['diabetes_expert_system.pl'].
 
-2. Run the diagnosis system:
-To start the interactive diagnosis system, run:
-```prolog
-   ?- input_and_diagnose.
+2. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/ShayanBagheri/diabetes-expert-system.git
+   cd diabetes-expert-system
+
+3. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/ShayanBagheri/diabetes-expert-system.git
+   cd diabetes-expert-system
