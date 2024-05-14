@@ -17,6 +17,7 @@ This project is an expert system designed to assist healthcare professionals in 
 ## Installation
 
 To run this project, you need to have Prolog installed on your machine. SWI-Prolog is recommended. You can download it from [SWI-Prolog website](https://www.swi-prolog.org/Download.html).
+You can also use Online Compiler.
 
 ## Usage
 
@@ -56,7 +57,7 @@ To start the interactive diagnosis system, run:
 - 'valid_hba1c/1': Validates HbA1c levels.
 - 'weighted_risk/2': Calculates weighted risk based on risk factors.
 
-##Example
+## Example
 
    ```prolog
    ?- input_and_diagnose.
