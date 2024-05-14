@@ -21,4 +21,9 @@ To run this project, you need to have Prolog installed on your machine. SWI-Prol
 1. Load the Prolog file:
 Start SWI-Prolog and load the main Prolog file:
 ```prolog
-?- ['diabetes_expert_system.pl'].
+    ?- ['diabetes_expert_system.pl'].
+
+2. Run the diagnosis system:
+To start the interactive diagnosis system, run:
+```prolog
+   ?- input_and_diagnose.
