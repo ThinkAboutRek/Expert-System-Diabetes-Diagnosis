@@ -29,3 +29,6 @@ To start the interactive diagnosis system, run:
    ```prolog
    ?- input_and_diagnose.
 
+## System Components
+
+**Facts**
