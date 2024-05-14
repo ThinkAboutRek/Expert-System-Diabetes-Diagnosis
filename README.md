@@ -23,14 +23,9 @@ Start SWI-Prolog and load the main Prolog file:
    ```prolog
    ?- ['diabetes_expert_system.pl'].
 
-2. **Clone the repository:**
+2. **Run the diagnosis system:**
+To start the interactive diagnosis system, run:
 
-   ```bash
-   git clone https://github.com/ShayanBagheri/diabetes-expert-system.git
-   cd diabetes-expert-system
+   ```prolog
+   ?- input_and_diagnose.
 
-3. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/ShayanBagheri/diabetes-expert-system.git
-   cd diabetes-expert-system
