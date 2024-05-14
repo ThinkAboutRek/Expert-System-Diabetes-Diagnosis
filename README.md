@@ -32,3 +32,24 @@ To start the interactive diagnosis system, run:
 ## System Components
 
 **Facts**
+
+- 'symptom/2': Stores patient symptoms.
+- 'risk_factor/2': Stores patient risk factors.
+- 'fbs_level/2': Stores patient fasting blood sugar levels.
+- 'hba1c_level/2': Stores patient HbA1c levels.
+
+**Rules**
+
+- 'diabetic/1': Diagnoses diabetes.
+- 'pre_diabetic/1': Diagnoses pre-diabetes.
+- 'severe_diabetic/1': Identifies severe diabetes cases.
+- 'diagnosis_type_1/1': Diagnoses Type 1 diabetes.
+- 'diagnosis_type_2/1': Diagnoses Type 2 diabetes.
+- 'diagnosis_high_risk/1': Identifies high-risk patients.
+- 'diagnosis_healthy/1': Identifies healthy patients.
+
+**Predicates**
+
+- 'valid_fbs/1': Validates FBS levels.
+- 'valid_hba1c/1': Validates HbA1c levels.
+- 'weighted_risk/2': Calculates weighted risk based on risk factors.
